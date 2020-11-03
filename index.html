@@ -16,248 +16,207 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
-    <title>Work Day Scheduler</title>
+    <title>Daily Planner 2020</title>
   </head>
 
   <body>
-   
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      
-      <!-- <p class="lead">A simple calendar app for scheduling your work day</p> -->
-      <h1><span id="datetime"></span></h1>
-      <p id="currentDay" class="lead"></p>
-    </header>
-    <div class="container">
-        <div class="row">
-          <div class="col-2">
-            6:00am
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            7:00am
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            8:00am
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            9:00am
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            10:00am
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            11:00am
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            12:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            1:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            2:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            3:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            4:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            5:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            6:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            7:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            8:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            9:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            10:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-2">
-            11:00pm
-          </div>
-          <div class="col-7">
-            <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-          </div>
-          <div class="col-3">
-            <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-          </div>
-        </div><br>
-        <div class="row">
-            <div class="col-2">
-              12:00am
-            </div>
-            <div class="col-7">
-              <input type="text" placeholder="New Event" name="todo-text" id="todo-text">
-            </div>
-            <div class="col-3">
-              <button onclick="myFunction()"><i class="far fa-save 30x"></i></button>
-            </div>
-          </div><br>
+      <h1 class="display-3">Work DayScheduler</h1>
+      <p class="lead">Appointments Setter</p>
+      <p id="currentTime" class="lead"></p>
+  </header>
+
+  <div class="container">
+  <div id="hour-06" class="row time-block past"> 
+    <div class="col-md-2 hour">
+      6:00am
     </div>
-    </div>
+    <textarea class="col-md-9 description" id="text17"></textarea>
+    <button class="btn saveBtn col-md-1">
+      <i class="icon fas fa-save"></i>
+    </button>
   </div>
 
-  <!-- <div class="hello"></div> -->
-    <script>
-    function myFunction() {
-        document.getElementById("myText").placeholder = "New Event";  
-    }
-    </script>
+<div id="hour-07" class="row time-block past"> 
+    <div class="col-md-2 hour">
+      7:00am
+    </div>
+    <textarea class="col-md-9 description" id="text17"></textarea>
+    <button class="btn saveBtn col-md-1">
+      <i class="icon fas fa-save"></i>
+    </button>
+  </div>
 
-     <script>
-      var dt = new Date();
-      document.getElementById("datetime").innerHTML = dt.toLocaleString();
-      </script>
+  <div id="hour-08" class="row time-block past"> 
+    <div class="col-md-2 hour">
+      8:00am
+    </div>
+    <textarea class="col-md-9 description" id="text17"></textarea>
+    <button class="btn saveBtn col-md-1">
+      <i class="icon fas fa-save"></i>
+    </button>
+  </div>
 
-  
+      <div id="hour-9" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          9:00am
+        </div>
+        <textarea class="col-md-9 description" id="text9"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-10" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          10:00am
+        </div>
+        <textarea class="col-md-9 description" id="text10"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-11" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          11:00am
+        </div>
+        <textarea class="col-md-9 description" id="text11"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-12" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          12:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text12"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-13" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          1:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text13"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-14" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          2:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text14"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-15" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          3:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text15"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-16" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          4:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text16"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-17" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          5:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+<div id="hour-18" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          6:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+<div id="hour-19" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          7:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+<div id="hour-20" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          8:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+<div id="hour-21" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          9:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+<div id="hour-22" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          10:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+
+      <div id="hour-23" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          11:00pm
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+<div id="hour-24" class="row time-block past"> 
+        <div class="col-md-2 hour">
+          12:00am
+        </div>
+        <textarea class="col-md-9 description" id="text17"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="icon fas fa-save"></i>
+        </button>
+      </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="index.djs"></script>
-
+    <script src="index.js"></script>
+    
   </body>
 </html>
+
