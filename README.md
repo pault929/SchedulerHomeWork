@@ -7,7 +7,7 @@
 # What does APP/Program do:
     Lets the user save info to his daily planner - also time (local time) slot change color based on present, past and future.
 # Screen Shoots:
-![Gif](./assets/05-third*party-apis-homework-demo.gif)
+![Gif](./assets/05-third-party-apis-homework-demo.gif)
 ![Screenshots](./images/cal1.JPG)
 ![Screenshots](./images/cal2.JPG)
 ![Screenshots](./images/cal2.JPG)
