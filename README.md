@@ -3,9 +3,10 @@
 # Link to site:
     https://pault929.github.io/SchedulerHomeWork/
 # List of Technologies:
-
-# What does APP/Program do
-# Screen Shoots / gifs
+    Html, CSS, Javascript
+# What does APP/Program do:
+    This program creates a daily planner that saves your info to local host and lets you edit after clearing old saved info. Calender time slot changes color by actual time of day.
+# Screen Shoots / Gifs
 ![Screenshots](./assets/05-third-party-apis-homework-demo.gif)
 ![Screenshots](./images/cal1.JPG)
 ![Screenshots](./images/cal2.JPG)
