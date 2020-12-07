@@ -1,8 +1,16 @@
 # Title:
+    Day planner / Scheduler
 # Link to site:
-# List of Technologies
-# What does APP/Program do
-# Screen Shoots 
+    https://pault929.github.io/SchedulerHomeWork/
+# List of Technologies:
+    HTML,CSS,JAVASCRIPT
+# What does APP/Program do:
+    Lets the user save info to his daily planner - also time (local time) slot change color based on present, past and future.
+# Screen Shoots:
+![Gif](./assets/05-third*party-apis-homework-demo.gif)
+![Screenshots](./images/cal1.JPG)
+![Screenshots](./images/cal2.JPG)
+![Screenshots](./images/cal2.JPG)
 # License
 # Collaborators
 
