@@ -1,3 +1,21 @@
+# Title:
+  Daily Planner - Calender
+# Link to site:
+    https://pault929.github.io/SchedulerHomeWork/
+# List of Technologies:
+
+# What does APP/Program do
+# Screen Shoots / gifs
+![Screenshots](./assets/05-third-party-apis-homework-demo.gif)
+![Screenshots](./images/cal1.JPG)
+![Screenshots](./images/cal2.JPG)
+![Screenshots](./images/cal3.JPG)
+# License
+# Collaborators
+
+
+
+# The following info provides the homework assignment
 # SchedulerHomeWork
 
 # 05 Third-Party APIs: Work Day Scheduler
